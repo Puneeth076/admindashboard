@@ -25,3 +25,58 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.form {
+  display: flex;
+  box-shadow: 0 0 5px 5px white;
+}
+label {
+  padding: 10px;
+  align-items: start;
+}
+
+input {
+  padding: 4px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  color: black;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 1px 1px rgb(227, 222, 222) inset;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+  border-radius: 0;
+}
+
+p {
+  padding: 2px;
+}
+
+span {
+  text-decoration: underline;
+  color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 50px;
+  margin: 1px;
+}
+::-webkit-scrollbar-button {
+  background-color: black;
+}
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

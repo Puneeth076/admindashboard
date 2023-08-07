@@ -1,0 +1,11 @@
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 0 50px 0 10px;
+    border-radius: 20px;
+
+    &:hover{
+        background-color: rgb(91, 90, 90);
+    }    
+}
